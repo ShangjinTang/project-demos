@@ -1,14 +1,9 @@
 # https://conan.io/center
 
 [requires]
+protobuf/3.21.12
 cppzmq/4.10.0
-# common libraries
-abseil/20230802.1
-fmt/10.1.1
-ms-gsl/4.0.0
-spdlog/1.12.0
-# test libraries
-doctest/2.4.11
+# test
 gtest/1.14.0
 
 [generators]
